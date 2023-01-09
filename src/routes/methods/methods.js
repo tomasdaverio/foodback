@@ -5,7 +5,19 @@ const { apiKeyb } = process.env;
 const { apiKeyc } = process.env;
 
 //fngetDiets:
-const dietSet = require('../../../../client/src/resources/resources.js')
+const dietSet = [
+  'gluten free',
+  'dairy free',
+  'lacto ovo vegetarian',
+  'vegan',
+  'paleolithic',
+  'primal',
+  'whole 30',
+  'pescatarian',
+  'ketogenic',
+  'fodmap friendly',
+  'vegetarian'
+]
 const { Diet } = require('../../db.js')
 
 //fnpostRecipe:
